@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>id and classes + css selectors</title>
+    <!-- Selectors in css -->
+    <!-- select the element by its name -->
+    <!-- Use # to select element by class -->
+    <style>
+        /* selected element by its name */
+        body {
+            background: lightgray;
+        }
+        /* selected elements by class */
+        .header {
+            color: crimson;
+        }
+        /* selected elements by id */
+        #main {
+            background: darkcyan;
+        }
+        /* how to select multiple elements */
+        #main , #topic {
+            border: darkgoldenrod 2px solid;
+            padding: 10px;
+            margin-bottom: 3px;
+        }
+        /* how to select nested elements */
+        #topic p {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <h2 class="header">Welcome to css</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores minima neque accusamus atque quis quo animi provident quibusdam consequatur, nostrum reiciendis, obcaecati ratione illum sapiente libero illo quaerat delectus facere.</p>
+    
+    </div>
+    <div id="topic">
+        <h2 class="header">Software engineering</h2>
+        <p>Lorem ipsum dolor sit amet</p>
+    </div>
+    
+    </body>
+</html>
